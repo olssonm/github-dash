@@ -1,0 +1,20 @@
+{
+	"name": "github-dash",
+	"version": "1.0.0",
+	"description": "Tweak the Github-dashboard to make it (more) usable again.",
+	"main": "./src/gulpfile.js",
+	"scripts": {
+		"ship": "gulp zip"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/olssonm/github-dash.git"
+	},
+	"author": "Marcus Olsson",
+	"license": "MIT",
+	"homepage": "https://github.com/olssonm/github-dash#readme",
+	"devDependencies": {
+		"gulp": "^4.0",
+		"gulp-zip": "^4.1"
+	}
+}

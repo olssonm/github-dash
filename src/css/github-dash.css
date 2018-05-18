@@ -1,0 +1,24 @@
+.dashboard-sidebar {
+    float: right !important;
+}
+
+.dashboard-sidebar h3.Box-title {
+    min-height: 28px;
+}
+
+.dashboard-sidebar ul li a {
+    margin: 0 !important;
+}
+
+.dashboard-sidebar ul li a {
+    margin: .2rem 0 !important;
+    padding: .4rem;
+}
+
+.dashboard-sidebar ul li.private {
+    background-color: rgba(255, 235, 168, 0.3);
+}
+
+.dashboard-sidebar ul li.private:hover {
+    background-color: rgba(255, 235, 168, 0.2);
+}
