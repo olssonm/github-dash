@@ -1,26 +1,22 @@
 # Github Dash
 
-Github [recently updated the dashboard](https://blog.github.com/changelog/2018-05-17-user-landingpage-changes/). Most of the changes are very much welcome, but for a user as me – who works mostly in very small teams (or even by myself) on multiple projects at once the ordering of the repos doesn't make much sense and messes with my usual workflow (before this update the repositories was ordered by when they was last updated which made it quick and easy to find repos for PRs etc.) This updated also removed the highlights of the private repos for some reason.
+Github [recently updated the dashboard](https://blog.github.com/changelog/2018-05-17-user-landingpage-changes/) – most of the changes are very much welcome. But for a user as me – who works mostly in very small teams (or even by myself) on multiple projects at once the ordering of the repos doesn't make much sense and messes with my usual workflow.
+
+<del>This update also removed the highlights of the private repos for some reason</del> (Github issued a fix for this on May 30th).
 
 **This simple Chrome-extension injects another module with "Recently updated" repositories, and also once again highlights the repos that are private.**
 
 Quickly written using jQuery in a very inefficient manner – but it does it's job. Might put some more time into it later if needed.
 
-#### Before
+**With the extension installed:**
 
-<a href="https://user-images.githubusercontent.com/907114/40656668-64eebce4-6345-11e8-85f6-3a7912cc1f29.png">
-    <img width="650" alt="before" src="https://user-images.githubusercontent.com/907114/40656668-64eebce4-6345-11e8-85f6-3a7912cc1f29.png">
-</a>
-
-#### After
-
-<a href="https://user-images.githubusercontent.com/907114/40656666-64d3298e-6345-11e8-8763-96b0c92c5c01.png">
-    <img width="650" alt="after" src="https://user-images.githubusercontent.com/907114/40656666-64d3298e-6345-11e8-8763-96b0c92c5c01.png">
+<a href="https://user-images.githubusercontent.com/907114/40720867-633e7dca-6418-11e8-9049-3a59d34c70ac.png">
+    <img width="650" alt="Github Dash" src="https://user-images.githubusercontent.com/907114/40720867-633e7dca-6418-11e8-9049-3a59d34c70ac.png">
 </a>
 
 ### Installation
 
-Download repo as .zip; visit `chrome://extensions` and select "Load unpacked".
+Download repo as .zip or visit the releases-page. Then visit `chrome://extensions` in your browser and select "Load unpacked".
 
 ### Thanks
 
@@ -28,6 +24,6 @@ As this is my first Chrome extension, I checked out [@urre](https://github.com/u
 
 ### License
 
-The MIT License (MIT). Please see [License File](LICENCE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 © 2018 [Marcus Olsson](https://marcusolsson.me).
