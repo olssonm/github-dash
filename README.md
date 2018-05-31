@@ -16,7 +16,7 @@ Quickly written using jQuery in a very inefficient manner – but it does it's j
 
 ### Installation
 
-### Chrome Web Store
+#### Chrome Web Store
 
 You can [install Github Dash directly via the Chrome Web Store →](https://chrome.google.com/webstore/detail/github-dash/gpoehidnjpmpocpjmlhlfclebemjcbhe)
 
